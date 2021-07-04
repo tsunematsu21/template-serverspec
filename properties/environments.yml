@@ -1,0 +1,8 @@
+production:
+  :ssh_user: production
+  :ssh_keys: [~/.ssh/production.pem]
+  :ssh_port: 10022
+development:
+  :ssh_user: development
+  :ssh_keys: [~/.ssh/development.pem]
+  :ssh_port: 20022
